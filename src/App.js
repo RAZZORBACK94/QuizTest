@@ -173,6 +173,7 @@ function App() {
     
     setTime(500)
     setReload((prevstate) => !prevstate)
+    setResume(false)
   };
 
   const playAgain = () => {
